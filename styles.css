@@ -1,0 +1,67 @@
+div.nav-title {
+    text-align: center;
+    position: relative;
+    color: white;
+    
+    padding: .8575em 1.4286em 0em 1.4286em;
+    vertical-align: middle;
+}
+
+div.nav-title i {
+    float: left;
+    padding-top: 4px;
+}
+
+div.header ul li {
+    width: 33%;
+    text-align: center;
+}
+
+div.nav-title span{
+    font-size: .875rem;
+    font-weight: 500;
+    border: 0;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+div.bike {
+    padding: 12px;
+    width: 100%;
+    height: 160px;
+}
+
+div.bike div.bike_title, div.bike div.bike_details {
+    width: 100%;
+}
+
+div.bike div.bike_details bike, div.bike div.bike_details div {
+    width: 50%;
+    display: inline;
+}
+
+div.bike div.bike_title span {
+    font-weight: 500;
+    font-size: .875rem;
+}
+
+div.bike img {
+    height: 100px;
+    object-fit: cover;
+}
+
+span.bike_descriptions {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.line_separator {
+    margin: 0 10% 0 10%;
+    border-bottom: 1px solid black;
+    
+}
